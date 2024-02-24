@@ -12,6 +12,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:shake/shake.dart';
 import 'package:telephony/telephony.dart';
 
+import 'NearbyLocations/nearby_places.dart';
 import 'emergencies/customeAppBar.dart';
 import 'emergencies/emergency.dart';
 
@@ -84,26 +85,26 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                   ),
-                  // Container(
-                  //     alignment: Alignment.center,
-                  //     child: const LiveSafe()),
+                  Container(
+                      alignment: Alignment.center,
+                      child: const LiveSafe()),
                   const SizedBox(height: 10),
                   const SizedBox(height: 5),
                   // Container(
                   //     alignment: Alignment.center,
                   //     child: const LiveSafe()),
                   // const SizedBox(height: 10),
-                  const Align(
-                    alignment: Alignment.centerLeft,
-                    child: Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        "Explore Inspiring Stories",
-                        style: TextStyle(
-                            fontSize: 22, fontWeight: FontWeight.w500),
-                      ),
-                    ),
-                  ),
+                  // const Align(
+                  //   alignment: Alignment.centerLeft,
+                  //   child: Padding(
+                  //     padding: EdgeInsets.all(8.0),
+                  //     child: Text(
+                  //       "Explore Inspiring Stories",
+                  //       style: TextStyle(
+                  //           fontSize: 22, fontWeight: FontWeight.w500),
+                  //     ),
+                  //   ),
+                  // ),
 
                   // const CustomCarouel(),
                 ],
