@@ -8,8 +8,9 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-import '../../db/databases.dart';
-import '../../model/PhoneContact.dart';
+import '../../PhoneContact.dart';
+import '../../databases.dart';
+
 class CallerScreen extends StatefulWidget {
   @override
   State<CallerScreen> createState() => _SafeHomeState();
